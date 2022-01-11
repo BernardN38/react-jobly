@@ -37,7 +37,7 @@ function Profile({ user }) {
           </CardSubtitle>
           <Button tag={Link} to="edit"className="btn-info">Edit</Button>
         </CardBody>
-        {userJobs.map((job)=>{return <p>{job.title}</p> })}
+        {/* {userJobs.map((job)=>{return <p>{job.title}</p> })} */}
       </Card>
       
     </div>
